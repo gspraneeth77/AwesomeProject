@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.awesomeproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-78
+12-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-75
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.99.0] /Users/vn53d79/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] /Users/vn53d79/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-24:19
+16        android:name="com.walmart.sdk.MainApplication"
+16-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-55
+17        android:allowBackup="false"
+17-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] /Users/vn53d79/.gradle/caches/transforms-3/ff5df5bcdf69debbf1e3067aa1d51dbb/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-41
+21        android:label="@string/app_name"
+21-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:7-52
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:11:7-38
+25        android:usesCleartextTraffic="true" >
+25-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-44
+26        <activity
+26-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-23:18
+27            android:name="com.awesomeproject.MainActivity"
+27-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:9-37
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:9-86
+29            android:exported="true"
+29-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:11-34
+30            android:label="@string/app_name"
+30-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-41
+31            android:launchMode="singleTask"
+31-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-51
+33            <intent-filter>
+33-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:9-22:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:13-65
+34-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:13-73
+36-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-86
+39-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:19-83
+40        <activity
+40-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-20:39
+41            android:name="com.walmart.sdk.MainActivity"
+41-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-56
+42            android:exported="true" />
+42-->[:sdk] /Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-36
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/vn53d79/.gradle/caches/transforms-3/b9b136e7040d50ef97fac8b887254660/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/vn53d79/.gradle/caches/transforms-3/b9b136e7040d50ef97fac8b887254660/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+46            android:authorities="com.awesomeproject.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/vn53d79/.gradle/caches/transforms-3/b9b136e7040d50ef97fac8b887254660/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/vn53d79/.gradle/caches/transforms-3/b9b136e7040d50ef97fac8b887254660/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/vn53d79/.gradle/caches/transforms-3/b9b136e7040d50ef97fac8b887254660/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/vn53d79/.gradle/caches/transforms-3/b9b136e7040d50ef97fac8b887254660/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/vn53d79/.gradle/caches/transforms-3/b9b136e7040d50ef97fac8b887254660/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vn53d79/.gradle/caches/transforms-3/2fda1ef4a376de495fc302fd0d62eb5a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vn53d79/.gradle/caches/transforms-3/2fda1ef4a376de495fc302fd0d62eb5a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/vn53d79/.gradle/caches/transforms-3/2fda1ef4a376de495fc302fd0d62eb5a/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

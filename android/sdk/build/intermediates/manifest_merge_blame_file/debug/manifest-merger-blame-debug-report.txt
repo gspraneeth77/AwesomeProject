@@ -1,0 +1,35 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.walmart.sdk" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+8        android:targetSdkVersion="31" />
+9
+10    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+10-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/debug/AndroidManifest.xml:5:5-77
+10-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/debug/AndroidManifest.xml:5:22-75
+11
+12    <application
+12-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/main/AndroidManifest.xml:5:5-9:19
+13        android:name="com.walmart.sdk.MainApplication"
+13-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/main/AndroidManifest.xml:5:18-64
+14        android:usesCleartextTraffic="true"
+14-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/debug/AndroidManifest.xml:8:9-44
+15        tools:ignore="GoogleAppIndexingWarning"
+15-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/debug/AndroidManifest.xml:10:9-48
+16        tools:targetApi="28" >
+16-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/debug/AndroidManifest.xml:9:9-29
+17        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+17-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/debug/AndroidManifest.xml:11:9-86
+17-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/debug/AndroidManifest.xml:11:19-83
+18        <activity
+18-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/main/AndroidManifest.xml:6:9-8:38
+19            android:name="com.walmart.sdk.MainActivity"
+19-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/main/AndroidManifest.xml:7:13-41
+20            android:exported="true" />
+20-->/Users/vn53d79/Desktop/react test/AwesomeProject/android/sdk/src/main/AndroidManifest.xml:8:13-36
+21    </application>
+22
+23</manifest>
